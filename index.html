@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit-Shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="top">
+        <div class="nav-text">
+            <p>home</p>
+            <p>about us</p>
+            <p>shop</p>
+            <p>all fruits</p>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <img src="./images/logo.png" alt="" class="logo">
+            <p class="text-3xl text-white">Fruit burst</p>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="search here" class="nav-search" />
+            <img src="./images/Frame (2).png" alt="" class="search-icon">
+        </div>
+    
+    </nav>
+
+    <section class="banner">
+        <div class="carousel w-full flex">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="./images/banner1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="./images/banner2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="./images/banner3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="./images/banner4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle" >❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+          <div class="banner-2">
+            <p class="text-4xl text-white">Exotic fruits at your</p>
+            <p class="text-4xl text-white">Doorstep</p>
+            <p class="text-white text-xs">We supply highly quality organic products</p>
+            <button class="shop">Shop now</button>
+          </div>
+
+          <div class="banner-bot">
+            <div class="flex flex-col gap-4">
+                <img src="./images/fruit1.png" alt="">
+                <p class="text-class">Grape</p>
+            </div>
+            <div class="flex flex-col gap-4">
+                <img src="./images/fruit4.png" alt="">
+                <p class="text-class">Strawberry</p>
+            </div>
+            <div class="flex flex-col gap-4">
+                <img src="./images/fruit5.png" alt="">
+                <p class="text-class">pomegranate</p>
+            </div>
+            <div class="flex flex-col gap-4">
+                <img src="./images/fruit9.png" alt="">
+                <p class="text-class">Banana</p>
+            </div>
+          </div>
+    </section>
+</body>
+</html>
+
+
