@@ -5,7 +5,7 @@ body{
     background-color: #F85559;
     border-radius: 40px;
     padding: 20px 10px 20px 10px;
-    margin: 50px 80px 50px 80px;
+    margin: 50px 150px 50px 125px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,40 +53,62 @@ body{
     color: white;
 }
 
+.banner{
+    position: relative;
+}
+
 .banner-2{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    position: relative;
-    bottom: 380px;
+    
     pointer-events: None;
 }
 
+.fruit{
+    width: 80px;
+}
 
 .w-full {
-    height: 500px;
-    width: 1000px;
+   
     background-color: black;
-    opacity: 0.8;
+    opacity: 1;
   }
 
+.slide{
+    margin-left: 130px;
+    
+   
+  }
 .banner-bot{
 
     background-color: white;
-    margin-left: 150px;
-    margin-right: 150px;
-    padding: 30px 0 30px 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px 30px 30px 30px;
     display: flex;
-    justify-content: space-around;
-    position: relative;
-    bottom: 320px;
+    justify-content: center;
+    gap: 90px;
     pointer-events: None;
-    margin-bottom: 100px;
+    
+}
+
+.ban-change{
+    position:absolute;
+    top: 150px;
+    left: 160px;
+}
+
+.banner{
+    margin-bottom: 120px;
 }
 
 .text-class{
     text-align: center;
 }
+
+
+
 
 
